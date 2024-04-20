@@ -918,8 +918,7 @@ video::-webkit-media-controls {
     font-size: 2em;
     user-select: none;
     padding: 1.5% 3% 1.5% 3%;
-    margin-right: -8%;
-    margin-left: -8%;
+
 }
 
 .footer3 {
@@ -1421,7 +1420,7 @@ ul a:hover {
     }
 
     .gallery .galery-btn a {
-        font-size: 15vw;
+        font-size: 10vw;
     }
 
     .gallery .galery-btn a:nth-child(2) {
@@ -1500,6 +1499,41 @@ ul a:hover {
     .school1 .gallery {
         width: 105%;
         margin-left: -1%;
+    }
+
+    /*teren*/
+    .school1 h3 {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 6vw;
+        margin-bottom: 5%;
+    }
+
+    .custom-video {
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+    }
+
+    .custom-video__container {
+        width: 80%;
+    }
+
+    .kartica-skola {
+        flex-direction: column;
+    }
+
+    .kartica-elem3 {
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
+
+    .school1 .galery-btn2 a {
+        font-size: 10 vw;
+
     }
 
 }
