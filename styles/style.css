@@ -243,6 +243,8 @@ video {
     color: rgb(231, 231, 231);
     padding: 2% 5% 2% 5%;
     font-size: 3.2vw;
+    text-align: center;
+
 }
 
 .nav2 {
@@ -662,7 +664,6 @@ footer {
 .school1 {
     color: rgb(231, 231, 231);
     margin-left: 10%;
-    margin-right: 10%;
     text-align: justify;
     background-color: #25272b;
     border-radius: 10px;
@@ -1468,6 +1469,39 @@ ul a:hover {
         padding-top: 4%;
         padding-left: 30%;
     }
+
+    /*skola*/
+    .school1 {
+        font-size: 4vw;
+        margin-right: 7%;
+        margin-left: auto;
+        width: 85%;
+
+    }
+
+    .kartica-skola {
+        flex-direction: column;
+    }
+
+    .kartica-elem {
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    .school1 h2 {
+        text-align: center;
+    }
+
+    .kartica-elem2 {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .school1 .gallery {
+        width: 105%;
+        margin-left: -1%;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
